@@ -3,8 +3,6 @@ This tutorial is inspired by this [video](https://www.youtube.com/watch?v=_8lJ5l
 It's just very fast crash course to get hands dirty and work with redis-cli
 
 # Redis-CLI (command line interface) commands:</br>
-- keys *:
-show all the keys in the redis storage</br>
 
 ## 1] Normal Storing & Retrieving:
 - set <key> <value>
@@ -14,6 +12,8 @@ e.g: set username maamoun_haj_najeeb</br>
 get the value of that key</br>
 e.g: get username</br>
 the previous command will return maamoun_haj_najeeb</br>
+- keys *:
+show all the keys in the redis storage</br>
 
 ## 2] Storing & Retrieving With HSet Data Structure:
 - hset <father_key> <child_key_1> <value> <child_key_2> <value>
